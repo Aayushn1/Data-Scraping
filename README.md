@@ -6,3 +6,5 @@ The 'New' folder has the code for data extraction and sentiment analysis.
 'amazon.py' and 'flipkart.py' files have the code for data extraction.
 
 'amazon_sentiment.py' and 'flipkart_sentiment.py' files have the code for sentiment analysis.
+
+'lexicon_easy.csv' has the list of all the words used for the sentiment analysis.
