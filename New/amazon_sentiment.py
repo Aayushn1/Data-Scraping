@@ -103,6 +103,8 @@ print ("Positive: %5d (%.1f%%)" % (num_pos, 100.0 * (num_pos/total)))
 print ("Negative: %5d (%.1f%%)" % (num_neg, 100.0 * (num_neg/total)))
 print ("Neutral:  %5d (%.1f%%)" % (num_neu, 100.0 * (num_neu/total)))
 
+from matplotlib import pyplot as plt
+
 #To plot the sentiment score on a histogram
 score = []
 
