@@ -153,6 +153,17 @@ def analysis():
     print ("Negative: %5d (%.1f%%)" % (num_neg, 100.0 * (num_neg/total)))
     print ("Neutral:  %5d (%.1f%%)" % (num_neu, 100.0 * (num_neu/total)))
 
+    #To plot the sentiment score on a histogram
+    score = []
+
+    for tweet in tweets:
+        score.append(tweet['score'])
+    bins = [-5,-4,-3,-2,-1,0,1,2,3,4,5,6]
+    plt.hist(score,bins = bins)
+    plt.title("Sentiment Score of Reviews")
+    plt.xlabel("Sentiment Score")
+    plt.ylabel("No. of Reviews")
+    plt.show()
 
     # Print out some of the tweets
     tweets_sorted = sorted(tweets, key=lambda k: k['score'])
