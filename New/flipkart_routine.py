@@ -9,6 +9,8 @@ import schedule
 # For sorting dictionaries
 import operator
 
+from matplotlib import pyplot as plt 
+
 
 def data_extraction():
     url = "https://www.flipkart.com/computers/pr?sid=6bo&q=digisol&otracker=categorytree&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DDigisol"
