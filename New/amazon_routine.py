@@ -8,7 +8,7 @@ import re
 import schedule
 # For sorting dictionaries
 import operator
-
+from matplotlib import pyplot as plt
 
 def data_extraction():
     url = "https://www.amazon.in/s?k=digisol&s=review-rank&qid=1560834076&ref=sr_st_review-rank"
